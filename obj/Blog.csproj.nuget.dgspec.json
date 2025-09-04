@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Blog\\Blog.csproj": {}
+    "D:\\Dev\\balta\\study-dotnet-efcore-blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Blog\\Blog.csproj": {
+    "D:\\Dev\\balta\\study-dotnet-efcore-blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Blog\\Blog.csproj",
+        "projectUniqueName": "D:\\Dev\\balta\\study-dotnet-efcore-blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\Dev\\Blog\\Blog.csproj",
-        "packagesPath": "C:\\Users\\luizt\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Blog\\obj\\",
+        "projectPath": "D:\\Dev\\balta\\study-dotnet-efcore-blog\\Blog.csproj",
+        "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\balta\\study-dotnet-efcore-blog\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\luizt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -69,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
