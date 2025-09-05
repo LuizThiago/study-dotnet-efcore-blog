@@ -1,3 +1,4 @@
+using Blog.Data.Mappings;
 using Blog.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,4 +12,11 @@ public class BlogDataContext : DbContext
 
 	override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
 		optionsBuilder.UseSqlServer("Server=localhost,1433;Database=FluentBlog;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;");
+
+	override protected void OnModelCreating(ModelBuilder modelBuilder)
+	{
+		modelBuilder.ApplyConfiguration(new CategoryMap());
+		modelBuilder.ApplyConfiguration(new PostMap());
+		modelBuilder.ApplyConfiguration(new UserMap());
+	}
 }
